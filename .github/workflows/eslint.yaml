@@ -8,7 +8,8 @@ on:
         required: false
         default: '20'
     secrets:
-      SBT_TOKEN:
+      access-token:
+        description: 'Secret descriptoin'
         required: true
 
 jobs:
