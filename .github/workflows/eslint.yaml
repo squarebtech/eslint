@@ -12,10 +12,10 @@ on:
         type: string
         required: false
         default: '.'
-    secrets:
-      access-token:
-        description: 'Secret descriptoin'
-        required: true
+    # secrets:
+    #   access-token:
+    #     description: 'Secret descriptoin'
+    #     required: true
 
 jobs:
   lint:
